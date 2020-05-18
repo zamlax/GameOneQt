@@ -1,11 +1,18 @@
-#include "mainwindow.h"
-
 #include <QApplication>
+#include "Game.h"
 
-int main(int argc, char *argv[])
-{
+/*
+Tutorial Topics:
+-QGraphicsPixmapItem, QPixmap, QImage
+*/
+
+Game * game;
+
+int main(int argc, char *argv[]){
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+
+    game = new Game();
+    game->show();
+
     return a.exec();
 }

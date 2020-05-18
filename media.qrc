@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix">
+        <file>bullet.png</file>
+        <file>enemy.png</file>
+        <file>sprite.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>music.mp3</file>
+        <file>vistrel.mp3</file>
+    </qresource>
+</RCC>
